@@ -9,8 +9,8 @@ LDFLAGS = -fsanitize=address,undefined
 # Library flags (Math and Pthread)
 LDLIBS = -lpthread -lm
 
-SRC = prog1.c
-TARGET = prog
+SRC = dicegame.c
+TARGET = dicegame
 
 all: $(TARGET)
 
